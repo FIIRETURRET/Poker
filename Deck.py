@@ -33,7 +33,7 @@ class StandardDeck(list):
                     symbol = str(values[name]) + symbolIcon
                 else:
                     symbol = name[0] + symbolIcon
-                self.append( Card(name, values[name], suit, symbol) )
+                self.append( Card(name, values[name], symbolIcon, symbol) )
                 
     def __repr__(self):
         return "Standard deck of cards\n{0} cards remaining".format(len(self))
