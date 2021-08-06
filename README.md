@@ -2,6 +2,11 @@
 A terminal based video poker game
 
 # How to run
+Download exe on itch.io here:
+https://fiireturret.itch.io/terminal-poker
+
+OR
+
 Run Game.py in a python interpreter 
 Run interpreterVideoPoker() in the terminal
 
